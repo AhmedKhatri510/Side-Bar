@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Tabs from "./Tabs";
+import Tab from "./Tab";
 import tabsDetail from "../constants/tabsDetail";
 import "./SideBar.css";
 
@@ -15,7 +15,7 @@ const SideBar = () => {
   return (
     <div className="sidebar">
       {tabsDetail.map((tabDetail) => (
-        <Tabs
+        <Tab
           key={tabDetail.title}
           imgUrl={tabDetail.imgUrl}
           title={tabDetail.title}

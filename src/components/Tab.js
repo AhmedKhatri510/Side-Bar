@@ -1,7 +1,7 @@
 import React from "react";
 import "./SideBar.css";
 
-const Tabs = ({ title, imgUrl, activeTab, onTabClick }) => {
+const Tab = ({ title, imgUrl, activeTab, onTabClick }) => {
   return (
     <div>
       <div
@@ -23,4 +23,4 @@ const Tabs = ({ title, imgUrl, activeTab, onTabClick }) => {
   );
 };
 
-export default Tabs;
+export default Tab;
